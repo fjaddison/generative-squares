@@ -10,9 +10,20 @@ body {
     place-items: center;
     background: hsl(0, 0%, 96%);
 }
-  
+
+header {
+    font-family: 'Gil Sans', sans-serif;
+    text-align: center;
+}
+
 #svg {
     width: 75vmin;
     height: 75vmin;
     background: hsl(0, 0%, 100%);
+}
+
+#about {
+    position: absolute;
+    top: 45px;
+    right: 15px;
 }
